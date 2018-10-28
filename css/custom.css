@@ -3,10 +3,18 @@
     padding : 0px !important;
 }
 
+.web-section {
+    padding: 4em 3em !important;
+}
+
 /* navigation bar */
 .navbar {
     z-index: 1000;
     max-height: 12vh !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .btn-sideBar {
@@ -30,6 +38,23 @@
 #sidebar ul.components {
     border-bottom: 1px solid #fff !important;
     border-top: 1px solid #fff !important;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
 }
 
 .main-container {
@@ -82,39 +107,71 @@ p.lead.Home-para1{
 
 @media only screen and (max-width: 768px) {
     .Home-para1{
-        font-size:40px ;
+        font-size:36px ;
     }
-    .Home--para2{
-        font-size:24px ;
+    .Home-para2{
+        font-size:20px ;
     }
     .Home-para3{
-        font-size:22px;
+        font-size:18px;
     }
     .Home-reponsive{
         margin-top: 10vh;
     }
+
+    .web-section {
+        padding: 2em 1em !important;
+    }
 }
 
 
 
-
-
-
-
-
-.wrapper {
-    display: flex;
-    width: 100%;
+/* About HackBMU */
+.content-title
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: underline ;
+    font-family: "Roboto Condensed",sens-serif;
 }
 
-#sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    z-index: 999;
-    background: #7386D5;
-    color: #fff;
-    transition: all 0.3s;
+.sub_heading
+{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed",sens-serif;
+}
+
+#about-bg-diag
+{
+  width: 100%;
+  height: 100%;
+}
+
+#about-bg-diag img{
+    width: 50%;
+    height: 70%;
+    margin-top: 5vh;
+}
+
+@media(min-width:768px) and (max-width:1199px)
+{
+  /* #about-bg-diag
+  {
+    margin:  10%;
+  } */
+}
+
+@media(max-width:767px)
+{
+  #about-bg-diag
+  {
+      padding: 0% 10% !important;
+  }
+    
 }
