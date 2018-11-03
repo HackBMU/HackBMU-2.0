@@ -248,6 +248,91 @@
                   </div>
               </div>
               </section>
+
+               <section id="PastSponsers">
+                <h1 align="center"> Our Past Sponsers</h1>
+               <div class="pastSponser_bodycont">
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/advantEdge.png" title="advantEdge"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/aws.png" title="aws"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/balsamiq.png" title="balsamiq"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/paytm.png" title="paytm"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/chartwell.png"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/codingBlocks.png"> </div>
+                </div>
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/creativeTim.png"> </div>
+                  <div class="pastSponser_img pastSponser_hide"> <img src="img/digitalOcean.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/geeksforGeeks.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/gitlab.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/i3Indiya.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/incuspaze.png"> </div>
+                </div>
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img"> <img src="img/inkMonk.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/jetBrains.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/lbf.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/majorLeagueH.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/bugsee.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/sketch.png"> </div>
+                </div>
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img"> <img src="img/tekSystems.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/temboo.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/uploadCare.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/wolfram.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/znet.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/hackster.png"> </div>
+                </div>
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img"> <img src="img/challengeRocket.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/womenWhoCode.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/nikoin.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/twillo.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/hacksociety.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/freestand.png"> </div>
+                </div>
+                <div class="pastSponser_imgcont">
+                  <div class="pastSponser_img"> <img src="img/smartedge.png"> </div>
+                  <div class="pastSponser_img"> <img src="img/womenTech.png"> </div>
+                  <div class="pastSponser_img abc"> <img src="img/institutionEAT.png"> </div>
+                </div>
+                <div class="pastSponser_btn" id="pastSponser_BTN">
+                  <button class="pastSponser_btn" onclick="myFunction()">Show More</button>
+                </div>
+                <div class="pastSponser_btn" id="pastSponser_BTN_hide">
+                  <button class="pastSponser_btn" onclick="hideSponser()">Show Less</button>
+                </div>
+              </div>
+              <script>
+                function myFunction() {
+                  var x = document.getElementsByClassName("pastSponser_img");
+                  console.log(x);
+                  var i;
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "block";
+                  }
+                  document.getElementById("pastSponser_BTN").style.display = "none";
+                  document.getElementById("pastSponser_BTN_hide").style.display = "block";
+                }
+                function hideSponser() {
+                  var x = document.getElementsByClassName("pastSponser_img");
+                  // console.log(x);
+                  var i;
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  var x = document.getElementsByClassName("pastSponser_hide");
+                  // console.log(x);
+                  var i;
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "block";
+                  }
+                  document.getElementById("pastSponser_BTN").style.display = "block";
+                  document.getElementById("pastSponser_BTN_hide").style.display = "none";
+                }   
+              </script>
+            </section>
               <footer class="space--sm footer-2">
                   <div class="container">
                           <div class="row">
