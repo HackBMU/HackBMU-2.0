@@ -175,3 +175,21 @@ p.lead.Home-para1{
   }
     
 }
+
+/* Our Team */
+<style>
+.feature h5{
+	font-size : 2em!important;
+	
+}
+.feature:hover{
+cursor : pointer;
+box-shadow : 4px 4px 10px #888888;
+border-radius: 4%;
+}
+
+.feature:hover h5 {
+color: #021B79 !important;
+}
+
+</style>
