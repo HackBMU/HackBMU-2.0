@@ -7,7 +7,29 @@
     padding: 4em 3em !important;
 }
 
+.no-pad-bot {
+    padding-bottom: 0px !important;
+}
+
+.no-pad-up {
+    padding-top: 0px !important;
+}
+
+.space--xs .container h2 {
+    font-size: 40px;
+    font-family: "Aileron";
+    border-bottom: 1px solid #c1c1c1;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #3e3e3e;
+}
+
+.heading-BMU {
+    padding-bottom: 30px !important;
+    padding-top: 3.71428571em !important;
+}
 /* navigation bar */
+
 .navbar {
     z-index: 1000;
     max-height: 12vh !important;
@@ -15,6 +37,18 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+.btn-info {
+    background-color: #0575E6 !important;
+}
+
+.btn-info:hover {
+    background-color: #021B79 !important;
+}
+
+.btn-navCollapse {
+    margin-bottom: 0px !important;
 }
 
 .btn-sideBar {
@@ -66,6 +100,9 @@
 .Home-logo {
     min-width: 150px;
     min-height: 150px;
+    max-width: 220px;
+    max-height: 220px;
+    margin-bottom: 0px !important;
 }
 
 .Home-para1{
@@ -122,6 +159,18 @@ p.lead.Home-para1{
     .web-section {
         padding: 2em 1em !important;
     }
+    
+    #navbarSupportedContent {
+        background: #f1f1f1;
+        width: 100vw !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 10px;
+    }
+
+
 }
 
 
@@ -129,12 +178,14 @@ p.lead.Home-para1{
 /* About HackBMU */
 .content-title
 {
-    font-size: 30px;
-    font-weight: 700;
     padding-top: 0px;
     text-align: left;
-    text-decoration: underline ;
-    font-family: "Roboto Condensed",sens-serif;
+    font-size: 40px;
+    font-family: "Aileron";
+    border-bottom: 1px solid #c1c1c1;
+    color: #3e3e3e;
+    width: auto;
+    margin-right: 1%;
 }
 
 .sub_heading
@@ -154,18 +205,11 @@ p.lead.Home-para1{
 }
 
 #about-bg-diag img{
-    width: 50%;
-    height: 70%;
-    margin-top: 5vh;
+    width: 300px;
+    height: 350px;
+    margin-top: 2%;
 }
 
-@media(min-width:768px) and (max-width:1199px)
-{
-  /* #about-bg-diag
-  {
-    margin:  10%;
-  } */
-}
 
 @media(max-width:767px)
 {
@@ -173,8 +217,16 @@ p.lead.Home-para1{
   {
       padding: 0% 10% !important;
   }
-    
+
+  #About {
+    padding-top: 0px !important;
+  }
+
 }
+
+
+
+
 /* Past Sponsers */
 
 .pastSponser_img img{
@@ -185,12 +237,12 @@ p.lead.Home-para1{
     /*background: #F2F0E9;*/
     padding:50px 10vw;
     margin-bottom: 100px;
+    padding-top: 0px;
 }
 
 .pastSponser_imgcont{
-    padding-top: 20px;
-    padding-bottom:20px;
     width: 80vw;
+    min-height: 110px;
 }
 
 .pastSponser_img {
@@ -199,17 +251,22 @@ p.lead.Home-para1{
 
 
 .pastSponser_img{
-    padding:10px;
-    width:10vw;
-    float:left;
-    margin: 10px;
-    border-radius:10%;  
+    padding: 20px;
+    width: 15%;
+    float: left;
+    margin: 5px;
+    border-radius: 10%;
     min-width: 80px;
     min-height: 62px;
 }
 .pastSponser_img:hover{
     box-shadow: 0px 0px 15px #d1ccca;
-     transform: scale(1.05);
+    transform: scale(1.01);
+}
+
+#PastSponsersHeading {
+    padding-top: 2em !important;
+    padding-bottom: 1em !important;
 }
 
 @media screen and (max-width: 719px) {
@@ -233,19 +290,74 @@ p.lead.Home-para1{
 
 
 /* Our Team */
-<style>
 .feature h5{
-	font-size : 2em!important;
-	
+	font-size : 1.5em !important;
 }
 .feature:hover{
-cursor : pointer;
-box-shadow : 4px 4px 10px #888888;
-border-radius: 4%;
+    cursor : pointer;
+    box-shadow : 4px 4px 10px #888888;
+    border-radius: 4%;
+    transform: scale(1.03);
+}
+
+.feature {
+    transition: transform .2s;
+}
+
+.feature-8 img{
+    max-height: 9em !important
+}
+
+#OurTeam {
+    padding-bottom:10px !important;
+}
+
+#Team {
+    padding-bottom: 1em !important;
 }
 
 .feature:hover h5 {
-color: #021B79 !important;
+    color: #0575E6 !important;
 }
 
-</style>
+
+/* Gallery */
+#carouselExampleIndicators {
+    width: 65vw !important;
+    display: inline-block;
+}
+#Gallery {
+    text-align: center;
+}
+.gheading {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #carouselExampleIndicators {
+        width: 80vw !important;
+    }
+    .content-title {
+        font-size: 28px;
+    }
+    .space--xs .container h2 {
+        font-size: 28px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .heading-BMU {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+} 
+
+.footer-5 {
+    background: #fafafa !important;
+    box-shadow: 0px -1px 10px rgba(0,0,0,0.1) ;
+    padding-top:2.5em !important;
+    padding-bottom: 2.5em !important;
+}
+
+.footer-5 .heading-block {
+    margin-bottom: 2em;
+}
