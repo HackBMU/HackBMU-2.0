@@ -3,6 +3,10 @@
     padding : 0px !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .web-section {
     padding: 4em 3em !important;
 }
