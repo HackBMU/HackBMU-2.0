@@ -106,9 +106,9 @@
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="nav navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                                <li class="nav-item active">
+                            <ul class="nav navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <li class="nav-item">
                                     <a class="nav-link" href="#Home">Home</a>
                                 </li>
                                 <li class="nav-item">
@@ -151,7 +151,7 @@
             </div>
         </section>
         <div class="blackdrop"></div>
-        <section class="switchable feature-large unpad--bottom web-section no-pad-bot " id="About"> 
+        <section class="switchable feature-large unpad--bottom web-section no-pad-bot " id="About">
             <div class="container-fluid">
                 <div class="row justify-content-around">
                     <div class="col-md-5 col-12 text-center hidden-xs" style="margin-top: 0px !important">
@@ -321,15 +321,24 @@
                 <div class="pastSponser_imgcont">
                     <div class="pastSponser_img"> <img src="img/smartedge.png"> </div>
                     <div class="pastSponser_img"> <img src="img/womenTech.png"> </div>
-                    <div class="pastSponser_img"> <img src="img/womenTech.png"> </div>
-                    <div class="pastSponser_img">  </div>
-                    <div class="pastSponser_img">  </div>
-                    <div class="pastSponser_img abc">  </div>
-                <div class="pastSponser_btn" id="pastSponser_BTN">
-                    <button class="pastSponser_btn" onclick="myFunction()">Show More</button>
+                    <div class="pastSponser_btn" id="pastSponser_BTN" style="text-align:center;">
+                        <button class="pastSponser_btn btn btn--primary type--uppercase" style="padding:5px 15px; margin-top: 20px;" onclick="myFunction()">Show More</button>
+                    </div>
+                    <div class="pastSponser_btn" id="pastSponser_BTN_hide" style="text-align:center;">
+                        <button class="pastSponser_btn btn btn--primary type--uppercase" style="padding:5px 15px; margin-top: 20px;" onclick="hideSponser()">Show Less</button>
+                    </div>
                 </div>
-                <div class="pastSponser_btn" id="pastSponser_BTN_hide">
-                    <button class="pastSponser_btn" onclick="hideSponser()">Show Less</button>
+        </section>
+        <section id="DownloadBrochure" class="text-center imagebg space--xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cta">
+                            <h1>Want to partner with us ?</h1>
+                            <a class="btn btn--primary type--uppercase" href="#purchase-template"><span> <i class="fa fa-download"></i>
+                                    &nbsp; Download our Brochure</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -345,21 +354,21 @@
         <section class="space--xs text-center" id="Contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9 col-lg-8">
-                        <form class="form--inline form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly."> <span class="h4 inline-block">Hi, I'm</span> <input type="text" name="Name" placeholder="Full Name" class="validate-required"> <span class="h4 inline-block">and I represent</span> <input type="text" name="Company" placeholder="Company Name" class="validate-required"> <span class="h4 inline-block">I'm looking for someone to work with us on</span>
-                            <div class="input-select"> <select class="validate-required">
-                        <option selected="selected" value="">Select</option>
-                        <option value="Design">Web Design</option>
-                        <option value="Development">Web Development</option>
-                        <option value="Branding">Branding</option>
-                    </select> </div> <span class="h4 inline-block">Budget-wise, I am looking to keep around the</span>
-                            <div class="input-select"> <select class="validate-required">
-                        <option selected="selected" value="">Select</option>
-                        <option value="0-5k">&lt; 5,000</option>
-                        <option value="5k-10k">5,000 - 10,000</option>
-                        <option value="10k-20k">10,0000 +</option>
-                    </select> </div> <span class="h4 inline-block">mark,</span> <span class="h4 inline-block">and I'm hoping to have the project complete around</span> <input type="text" name="Date" placeholder="Date / Timeframe" class="validate-required"> <span class="h4 inline-block">Contact me via</span> <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email"> <span class="h4 inline-block">or</span> <input type="tel" name="Phone" placeholder="Phone Number" class="validate-required"> <span class="h4 inline-block">and we can discuss the project in more detail.</span>
-                            <div> <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button> </div>
+                    <div class="">
+                        <form class="form--inline form-email" data-success="Thanks for your enquiry, we'll be in touch shortly."
+                            data-error="Please fill in all fields correctly.">
+                            <span class="h4 inline-block">Hi, I'm</span>
+                            <input type="text" name="Name" placeholder="Full Name" class="validate-required"> 
+                            <span class="h4 inline-block">and I represent</span>
+                            <input type="text" name="company" placeholder="Name of Organisation" class="validate-required">
+                            <span class="h4 inline-block">I'd like you to contact me through Email at</span> <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email">
+                            <span class="h4 inline-block">or Phone at</span> 
+                            <input type="tel" name="Phone" placeholder="Phone Number" class="validate-required"> 
+                            <span class="h4 inline-block">and we can discuss my query
+                                in more detail.</span>
+                            <div> 
+                            <button type="submit" class="btn btn--primary type--uppercase" style="margin-top:20px;">Send Enquiry</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -372,10 +381,10 @@
                 <div class="col-sm-12">
                     <div class="heading-block">
                         <ul class="list-inline list--hover">
-                            <li> <a href="#"><span>About us</span></a> </li>
-                            <li> <a href="#"><span>Our Team</span></a> </li>
-                            <li> <a href="#"><span>Past Sponsers</span></a> </li>
-                            <li> <a href="#"><span>Partner with Us</span></a> </li>
+                            <li> <a href="#About"><span>About us</span></a> </li>
+                            <li> <a href="#TeamHeading"><span>Our Team</span></a> </li>
+                            <li> <a href="#PastSponsersHeading"><span>Past Sponsers</span></a> </li>
+                            <li> <a href="#DownloadBrochure"><span>Partner with Us</span></a> </li>
                         </ul>
                     </div>
                     <div>
@@ -387,7 +396,8 @@
                         </ul>
                     </div>
                     <div> <span class="type--fine-print">Made with a cup of coffee</span></div>
-                    <div> <span class="type--fine-print">© <span class="update-year">2018</span> <b>HackBMU</b> All rights reserved</span> </div>
+                    <div> <span class="type--fine-print">© <span class="update-year">2018</span> <b>HackBMU</b> All
+                            rights reserved</span> </div>
                 </div>
             </div>
         </div>

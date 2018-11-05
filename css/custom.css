@@ -275,7 +275,21 @@ p.lead.Home-para1{
 
 @media screen and (max-width: 719px) {
   .pastSponser_img {
-    min-width:25vw;
+    min-width:35vw;
+    padding: 10px;
+  }
+
+  .pastSponser_bodycont {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #PastSponsers {
+    padding-bottom: 0px !important;
+  }
+
+  .pastSponser_imgcont {
+    min-height: 0%;
   }
 
   .pastSponser_img:not(.pastSponser_hide) {
@@ -355,6 +369,20 @@ p.lead.Home-para1{
     }
 } 
 
+#DownloadBrochure h1 {
+    color: #363636;
+}
+
+#DownloadBrochure a {
+    margin-top: 0px !important;
+}
+
+#Contact form {
+    line-height: 3em;
+    text-align: center;
+    padding: 10px 17px;
+}
+
 .footer-5 {
     background: #fafafa !important;
     box-shadow: 0px -1px 10px rgba(0,0,0,0.1) ;
@@ -365,3 +393,4 @@ p.lead.Home-para1{
 .footer-5 .heading-block {
     margin-bottom: 2em;
 }
+
