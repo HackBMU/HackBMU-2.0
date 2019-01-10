@@ -129,7 +129,7 @@ p.lead.Home-para1{
     margin-bottom: 0px !important;
 }
 .imageholder{
-    height:90vh;
+    min-height:90vh;
     background-image: url(../img/home-cover.jpg) !important;
     background-position: center;
     background-size: 100% 100%;
