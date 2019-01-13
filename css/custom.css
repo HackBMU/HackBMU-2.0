@@ -129,7 +129,7 @@ p.lead.Home-para1{
     margin-bottom: 0px !important;
 }
 .imageholder{
-    min-height:90vh;
+    height:90vh;
     background-image: url(../img/home-cover.jpg) !important;
     background-position: center;
     background-size: 100% 100%;
@@ -211,7 +211,7 @@ p.lead.Home-para1{
 #about-bg-diag img{
     width: 300px;
     height: 350px;
-    margin-top: 15%;
+    margin-top: 11%;
 }
 
 
@@ -405,5 +405,59 @@ p.lead.Home-para1{
 
 .footer-5 .heading-block {
     margin-bottom: 2em;
+}
+
+
+.faq-ques
+{
+    color: 		#484848;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600; 
+    margin-bottom:0%;
+}
+
+.faq-ans
+{
+    background-color:	#f1f1f1;
+    color: 		#505050;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 2px;
+    padding-left: 2%;
+}
+.faq-ol
+{
+    background-color: #ffffff;
+    color: 	#383838;
+    font-size: 18px;
+    margin-left:1%;
+    font-weight: 600; 
+    margin-top: 28px;
+}
+#faq
+{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.contact-form
+{
+    margin-bottom:28px ;
+}
+
+.mu-faq-area
+{
+    background-color:#ffffff;
+}
+
+@media(max-width:800px)
+{
+  #faq
+  {
+     margin: 10px;
+  }
+
 }
 
