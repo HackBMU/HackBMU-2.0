@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131904388-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-131904388-1');
-    </script>
-
     <meta charset="utf-8">
     <title>HackBMU 2.0</title>
     <link rel="icon" href="img/logo-head.png">
@@ -66,8 +57,11 @@
                         <a href="#TeamHeading">Our Team</a>
                     </li>
                     <li class="menuItems">
-                        <a href="#PastSponsersHeading">Our Past Sponsors</a>
+                        <a href="#PastSponsersHeading">Our Past Sponsers</a>
                     </li>
+                    <li class="menuItems">
+                            <a href="faq.html">FAQ</a>
+                        </li>
                     <li class="menuItems">
                         <a href="#ContactHeading">Contact us</a>
                     </li>
@@ -75,13 +69,10 @@
 
                 <ul class="list-unstyled CTAs">
                     <li>
-                        <p>Want to participate or partner with us ?</p>
+                        <p>Want to partner with us ?</p>
                     </li>
                     <li>
-                        <a target="_blank" href="" class="download">Register Yourself</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://drive.google.com/file/d/1C5lAO_itg0pJClUUziOtiECiVTDmxE3g/view?usp=sharing" class="download">Download Brochure</a>
+                        <a href="#" class="download">Download Brochure</a>
                     </li>
                 </ul>
             </nav>
@@ -116,7 +107,10 @@
                                     <a class="nav-link" href="#TeamHeading">Our Team</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#PastSponsersHeading">Past Sponsors</a>
+                                    <a class="nav-link" href="#PastSponsersHeading">Past Sponsers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#ContactHeading">Contact us</a>
@@ -157,19 +151,17 @@
                     <div class="col-md-7">
                         <div class="switchable__text">
                             <h2 class="content-title">About The Event</h2>
-                            <p class="lead"> HackBMU is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over India to create mobile, web, and hardware hacks for an intense 30-hour session.
+                            <p class="lead"> HackBMU is a hackathon focused on promoting innovation, diversity and networking among
+                                all future hackers. We will be hosting upcoming engineers and developers from all over
+                                India to create mobile, web, and hardware hacks for an intense 48-hour session.
                                 <br><br>
-                                Participants will be able to meet the up and coming of their generation,
-                                allowing them to get up to speed on new trends and quite possibly set new
-                                ones themselves. HackBMU seeks to provide a welcoming and supportive
-                                environment to all participants to develop their skills, regardless of their
-                                ethnicity.
+                                HackBMU seeks to provide a welcoming and supportive environment to develop their
+                                skills, regardless of their background.
                                 <br><br>
-                                Last year, HackBMU 1.0 garnered huge attention with 100+ participants from
-                                all over the country. Also, we aimed to close the gender gap in hackathon
-                                participation and encouraged female participants to join up by reserving seats
-                                and especially for them. The response was overwhelming, and nearly half of
-                                our participants were women. We aim to do the same this year
+                                Last year, HackBMU 1.0 garnered huge attention with 20+ teams from all over the country.
+                                Also, we aimed to close the gender gap in hackathon participation and encouraged female
+                                participants to join up by reserving seats especially for them. The response was
+                                overwhelming, and nearly half of our participants were women.
                         </div>
                     </div>
                 </div>
@@ -276,7 +268,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-lg-8">
-                        <h2>Our Past Sponsors</h2>
+                        <h2>Our Past Sponsers</h2>
                     </div>
                 </div>
             </div>
@@ -340,9 +332,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="cta">
-                            <h1>Want to participate or partner with us ?</h1>
-                            <a class="btn btn--primary type--uppercase" target="_blank" href="#"><span> Register Yourself</span></a>
-                            <a class="btn btn--primary type--uppercase" target="_blank" href="https://drive.google.com/file/d/1C5lAO_itg0pJClUUziOtiECiVTDmxE3g/view?usp=sharing"><span> <i class="fa fa-download"></i>
+                            <h1>Want to partner with us ?</h1>
+                            <a class="btn btn--primary type--uppercase" href="#purchase-template"><span> <i class="fa fa-download"></i>
                                     &nbsp; Download our Brochure</span></a>
                         </div>
                     </div>
@@ -361,18 +352,17 @@
         <section class="space--xs text-center" id="Contact">
             <div class="container">
                 <div class="row">
-                    <div class="">
+                    <div class="col-md-10 col-lg-16">
                         <form class="form--inline form-email" data-success="Thanks for your enquiry, we'll be in touch shortly."
-                            data-error="Please fill in all fields correctly." method="POST" data-netlify="true">
-                            <span class="h4 inline-block">Hi, I'm</span>
+                            data-error="Please fill in all fields correctly.">
+                            <span class="h4 inline-block contact-form">Hi, I'm</span>
                             <input type="text" name="Name" placeholder="Full Name" class="validate-required"> 
-                            <span class="h4 inline-block">and I am from</span>
-                            <input type="text" name="company" placeholder="Name of College" class="validate-required">
-                            <span class="h4 inline-block">I want to know more about the following query </span> <input type="text" name="query" placeholder="Enter your query" class="validate-required validate-email">
-                            <span class="h4 inline-block">I'd like you to contact me through Email at</span> <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email">
-                            <span class="h4 inline-block">or Phone at</span> 
+                            <span class="h4 inline-block contact-form">and I represent</span>
+                            <input type="text" name="company" placeholder="Name of Organisation" class="validate-required">
+                            <span class="h4 inline-block contact-form">I'd like you to contact me through Email at</span> <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email">
+                            <span class="h4 inline-block contact-form">or Phone at</span> 
                             <input type="tel" name="Phone" placeholder="Phone Number" class="validate-required"> 
-                            <span class="h4 inline-block">and we can discuss my query
+                            <span class="h4 inline-block contact-form">and we can discuss my query
                                 in more detail.</span>
                             <div> 
                             <button type="submit" class="btn btn--primary type--uppercase" style="margin-top:20px;">Send Enquiry</button>
