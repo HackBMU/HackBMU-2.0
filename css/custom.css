@@ -394,3 +394,37 @@ p.lead.Home-para1{
     margin-bottom: 2em;
 }
 
+<<<<<<< HEAD
+#teamimage{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    width:100% !important;
+    height:40% !important;
+   
+}
+.imagedimension{
+ width:100vw;
+height:50vh;
+    z-index:-1;
+}
+.colortext{
+    color:#696969;
+}
+.coloricon{
+    color:#A9A9A9;
+}
+.roundimage{
+    border-radius: 50%;
+    
+}
+.borderclass{
+    border:none !important;
+}
+
+.textposition{
+    position: relative;
+    top:-50%;
+    color:#3E3E3E;
+}
+=======
+>>>>>>> 965cc7f87853be1a4ca4360afd13b783f2c5c6ef
