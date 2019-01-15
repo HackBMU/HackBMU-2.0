@@ -3,6 +3,7 @@
     padding : 0px !important;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -106,24 +107,35 @@ html {
     min-height: 150px;
     max-width: 220px;
     max-height: 220px;
-    margin-bottom: 0px !important;
+    margin-bottom: auto !important;
 }
 
 .Home-para1{
     font-size: 50px;
     color: #fff;
     font-weight: 300;
+    line-height:1.5em ; 
+    line-height: 0.9em ;
 }
 .Home-para2{
     color: #fff;
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 15px !important;
+    margin-bottom: 0px !important;
+    /*line-height:0.8em ; */
+
 }
 .Home-para3{
     text-align: center;
     color: #fff !important;
     font-weight: 600;
+    /*line-height:0.8em ; */
+    margin-bottom: 0.3em !important;
+}
+.Home-para4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400 ;
 }
 p.lead.Home-para1{
     margin-bottom: 0px !important;
@@ -147,11 +159,17 @@ p.lead.Home-para1{
 }
 
 @media only screen and (max-width: 768px) {
+    .imagebg{
+        padding:0em;
+    }
     .Home-para1{
         font-size:36px ;
+        margin-bottom:0.2em !important;
     }
     .Home-para2{
         font-size:20px ;
+        margin-top:10px;
+        margin-bottom:5px;
     }
     .Home-para3{
         font-size:18px;
@@ -535,3 +553,18 @@ height:50vh;
     color:#3E3E3E;
 }
 
+.countSeconds{
+    display:none;
+}
+
+#countdown_space{
+    font-size :16px !important;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 768px){
+    .countdownHolder{
+        width:auto !important;
+    }
+}
