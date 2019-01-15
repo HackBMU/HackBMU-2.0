@@ -69,6 +69,9 @@
                         <a href="#PastSponsersHeading">Our Past Sponsors</a>
                     </li>
                     <li class="menuItems">
+                        <a href="faq.html#faq">FAQ</a>
+                    </li>
+                    <li class="menuItems">
                         <a href="#ContactHeading">Contact us</a>
                     </li>
                 </ul>
@@ -113,10 +116,13 @@
                                     <a class="nav-link" href="#GalleryHeading">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#TeamHeading">Our Team</a>
+                                    <a class="nav-link" href="/team.html">Our Team</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#PastSponsersHeading">Past Sponsors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html#faq">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#ContactHeading">Contact us</a>
@@ -358,22 +364,22 @@
                 </div>
             </div>
         </section>
-        <section class="space--xs text-center" id="Contact">
+       <section class="space--xs text-center" id="Contact">
             <div class="container">
                 <div class="row">
-                    <div class="">
-                        <form class="form--inline form-email" data-success="Thanks for your enquiry, we'll be in touch shortly."
-                            data-error="Please fill in all fields correctly." method="POST" data-netlify="true">
-                            <span class="h4 inline-block">Hi, I'm</span>
+                    <div class="col-md-10 col-lg-12">
+                        <form class='form--inline form-email' data-success='Thanks for your enquiry, we\'ll be in touch shortly.' data-error='Please fill in all fields correctly.' method='POST'><input type='hidden' name='form-name' value='form 1' />
+                            <span class="h4 inline-block contact-form">Hi, I'm</span>
                             <input type="text" name="Name" placeholder="Full Name" class="validate-required"> 
-                            <span class="h4 inline-block">and I am from</span>
+                            <span class="h4 inline-block contact-form">and I am from</span>
                             <input type="text" name="company" placeholder="Name of College" class="validate-required">
-                            <span class="h4 inline-block">I want to know more about the following query </span> <input type="text" name="query" placeholder="Enter your query" class="validate-required validate-email">
-                            <span class="h4 inline-block">I'd like you to contact me through Email at</span> <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email">
-                            <span class="h4 inline-block">or Phone at</span> 
+                            <span class="h4 inline-block contact-form">I want to know more about the following query </span>
+                            <input type="text" name="query" placeholder="Enter your query" class="validate-required validate-email">
+                            <span class="h4 inline-block contact-form">I'd like you to contact me through Email at</span> 
+                            <input type="email" name="email" placeholder="Email Address" class="validate-required validate-email">
+                            <span class="h4 inline-block contact-form">or Phone at</span> 
                             <input type="tel" name="Phone" placeholder="Phone Number" class="validate-required"> 
-                            <span class="h4 inline-block">and we can discuss my query
-                                in more detail.</span>
+                            <span class="h4 inline-block contact-form">and we can discuss my query in more detail.</span>
                             <div> 
                             <button type="submit" class="btn btn--primary type--uppercase" style="margin-top:20px;">Send Enquiry</button>
                             </div>
