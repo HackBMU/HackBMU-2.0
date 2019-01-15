@@ -44,15 +44,19 @@ html {
 }
 
 .btn-info {
-    background-color: #0575E6 !important;
+    background-color: #3572B9 !important;
 }
 
 .btn-info:hover {
-    background-color: #021B79 !important;
+    background-color: #272E71 !important;
 }
 
 .btn-navCollapse {
     margin-bottom: 0px !important;
+}
+
+#dismiss {
+    background: #272E71 !important;
 }
 
 .btn-sideBar {
@@ -90,11 +94,14 @@ html {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: #272E71 !important;
     color: #fff;
     transition: all 0.3s;
 }
 
+#sidebar .sidebar-header {
+    background: #272E71 !important;
+}
 .main-container {
     margin-top: 12vh;
 }
@@ -130,7 +137,7 @@ p.lead.Home-para1{
 }
 .imageholder{
     min-height:90vh;
-    background-image: url(../img/home-cover.jpg) !important;
+    background-image: url(../images/hacking.jpg) !important;
     background-position: center;
     background-size: 100% 100%;
 }
