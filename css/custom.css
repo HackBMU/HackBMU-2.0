@@ -95,13 +95,13 @@ html {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #272E71 !important;
+    background: #2f4499 !important;
     color: #fff;
     transition: all 0.3s;
 }
 
 #sidebar .sidebar-header {
-    background: #272E71 !important;
+    background: #2f4499 !important;
 }
 .main-container {
     margin-top: 12vh;
@@ -114,7 +114,6 @@ html {
     min-height: 150px;
     max-width: 220px;
     max-height: 220px;
-    margin-bottom: auto !important;
 }
 
 .Home-para1{
@@ -128,16 +127,14 @@ html {
     color: #fff;
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 0px !important;
-    /*line-height:0.8em ; */
-
+    margin-top: 0.2em;
+    margin-bottom: 0.2em !important
 }
 .Home-para3{
     text-align: center;
     color: #fff !important;
     font-weight: 600;
-    /*line-height:0.8em ; */
-    margin-bottom: 0.3em !important;
+    margin-bottom: 0.5em !important;
 }
 .Home-para4{
     color: #fff;
@@ -177,12 +174,26 @@ p.lead.Home-para1{
         font-size:20px ;
         margin-top:10px;
         margin-bottom:5px;
+        display: none;
+    }
+    .Home-logo {
+        max-width: 150px;
+        max-height: 150px;
+        margin-top: 30px;
+        margin-bottom:30px !important;
     }
     .Home-para3{
         font-size:18px;
+        line-height: 1em;
+        margin-top: 25px;
     }
     .Home-reponsive{
         margin-top: 10vh;
+    }
+
+    .Home-para4 {
+        margin-top: 25px;
+        margin-bottom: 15px !important;
     }
 
     .web-section {
@@ -199,7 +210,9 @@ p.lead.Home-para1{
         padding-left: 10px;
     }
 
-
+    .blackdrop {
+        top: 0vh;
+    }
 }
 
 
@@ -570,8 +583,18 @@ height:50vh;
     margin-top: -15px;
 }
 
+.countDiv2 {
+    display: none !important;
+}
 @media only screen and (max-width: 768px){
     .countdownHolder{
         width:auto !important;
+    }
+    .logo_whiteBox {
+        padding-top: 15vh !important;
+    }
+    
+    .ml15 .word {
+        margin-left: 8vw !important;
     }
 }
