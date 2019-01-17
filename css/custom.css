@@ -1,4 +1,6 @@
 /* General */
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
 #content {
     padding : 0px !important;
 }
@@ -22,7 +24,7 @@ html {
 
 .space--xs .container h2 {
     font-size: 40px;
-    font-family: "Aileron";
+    font-family: 'Montserrat', sans-serif !important;
     border-bottom: 1px solid #c1c1c1;
     margin-left: 20%;
     margin-right: 20%;
@@ -33,6 +35,7 @@ html {
     padding-bottom: 30px !important;
     padding-top: 3.71428571em !important;
 }
+
 /* navigation bar */
 
 .navbar {
@@ -159,10 +162,16 @@ p.lead.Home-para1{
     right: 0;
     bottom: 0;
     background-color: #000;   
-    opacity: .25;
+    opacity: .15;
 }
 
 @media only screen and (max-width: 768px) {
+    .imageholder{
+        min-height:90vh;
+        background-image: url(../img/5.jpg) !important;
+        background-position: center;
+        background-size: 100% 100%;
+    }
     .imagebg{
         padding:0em;
     }
@@ -223,7 +232,7 @@ p.lead.Home-para1{
     padding-top: 0px;
     text-align: left;
     font-size: 40px;
-    font-family: "Aileron";
+    font-family: 'Montserrat', sans-serif !important;
     border-bottom: 1px solid #c1c1c1;
     color: #3e3e3e;
     width: auto;
