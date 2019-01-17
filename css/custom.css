@@ -130,14 +130,14 @@ html {
     color: #fff;
     font-size: 30px;
     font-weight: 300;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em !important
+    margin-top: 0.17em;
+    margin-bottom: 0.17em !important
 }
 .Home-para3{
     text-align: center;
     color: #fff !important;
     font-weight: 600;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0em !important;
 }
 .Home-para4{
     color: #fff;
@@ -316,7 +316,7 @@ p.lead.Home-para1{
 }
 
 #PastSponsersHeading {
-    padding-top: 2em !important;
+    padding-top: 4em !important;
     padding-bottom: 1em !important;
 }
 
@@ -339,9 +339,9 @@ p.lead.Home-para1{
     min-height: 0%;
   }
 
-  .pastSponser_img:not(.pastSponser_hide) {
+  /*.pastSponser_img:not(.pastSponser_hide) {
     display: none;
-  }
+  }*/
   #pastSponser_BTN_hide{
     display: none;
   }
@@ -353,6 +353,94 @@ p.lead.Home-para1{
     }
 }
 
+/* Prizes */
+#mu-pricing{
+    padding-top: 0px !important;
+    padding-bottom: 1em !important;
+}
+#mu-pricing{
+    background-color: #f8f8f8;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.mu-pricing-area {
+    display: inline;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+.mu-title-area {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 640px){
+    .mu-title-area {
+        padding: 0;
+    }
+}
+.mu-title {
+    color: #1c1b1b;
+    margin-bottom: 0px;
+    padding: 0;
+    z-index: 10;
+    text-transform: capitalize;
+}
+.mu-pricing-conten {
+    display: inline;
+    float: left;
+    margin-top: -7px;
+    width: 100%;
+}
+@media (max-width: 991px){
+    .mu-pricing-conten {
+        padding: 0 5%;
+    }
+}
+.mu-single-price {
+    margin-top: 30px;
+    text-align:center ;
+}
+.mu-single-price {
+    background-color: #ffffff;
+    display: inline;
+    float: left;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+@media (max-width: 991px){`
+    .mu-single-price {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 686px){
+    .mu-single-price {
+        min-height: 320px;
+        max-width: 280px;
+        margin-right: 30px;
+    }
+}
+    
+.mu-single-price-head {
+    color: #555;
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mu-single-price .mu-price-title {
+    color: #555;
+    font-size: 22px;
+    padding: 10px 0;
+}
 
 /* Our Team */
 
@@ -395,9 +483,23 @@ p.lead.Home-para1{
     padding-bottom: 0px !important;
 }
 
+/*Our Partners*/
+.feature-1{
+min-height: 0 !important;
+margin-bottom: 10px !important;
+}
+.Rhover{
+    box-shadow: 0px 0px 0px !important;
+    border-radius: 0 !important;
+    transform: scale(1) !important;
+}
+#ourpartners_id{
+    padding-bottom: 3.5em !important;
+}
+
 /* Gallery */
 #carouselExampleIndicators {
-    width: 65vw !important;
+    width: 80vw !important;
     display: inline-block;
 }
 #Gallery {
@@ -595,6 +697,7 @@ height:50vh;
 .countDiv2 {
     display: none !important;
 }
+
 @media only screen and (max-width: 768px){
     .countdownHolder{
         width:auto !important;
@@ -606,4 +709,15 @@ height:50vh;
     .ml15 .word {
         margin-left: 8vw !important;
     }
+}
+
+/*HackBMU Archives*/
+.heading-archives{
+    padding-bottom: 0em !important;
+    padding-top: 2em !important;
+    font-family: 'Montserrat', sans-serif;
+}
+#GalleryHeading{
+    padding-top: 2em;
+    margin-top:12vh;
 }
