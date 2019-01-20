@@ -538,6 +538,13 @@ margin-bottom: 10px !important;
         padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
+    .partnerContainer {
+        padding: 20px 40px;
+    }
+    .partnerContainer img {
+        max-height: 30vh;
+        max-width: 80vw;
+    }
 } 
 
 #DownloadBrochure {
