@@ -77,6 +77,18 @@ html {
 .nav-item {
     padding: 0px 8px !important;
 }
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-icons-links:hover{
+    background: #4A90E2 !important;
+}
+.nav-icons-links:hover{
+    color:#f1f1f1 !important;
+}
+
+
 #sidebar {
     z-index: 2000 !important;
 }
@@ -548,15 +560,16 @@ margin-bottom: 10px !important;
 } 
 
 #DownloadBrochure {
-    background: #f1f1f1;
+    background: #4A90E2;
 }
 
 #DownloadBrochure h1 {
-    color: #363636;
+    color: #f1f1f1;
 }
 
 #DownloadBrochure a {
     margin-top: 0px !important;
+    border: 1px solid #f1f1f1;
 }
 
 #Contact form {
