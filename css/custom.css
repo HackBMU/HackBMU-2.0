@@ -161,7 +161,7 @@ p.lead.Home-para1{
 }
 .imageholder{
     min-height:90vh;
-    background-image: url(../images/hacking.jpg) !important;
+    background-image: url(../images/background1.png) !important;
     background-position: center;
     background-size: 100% 100%;
 }
@@ -522,6 +522,19 @@ margin-bottom: 10px !important;
     padding: 20px;
 }
 
+/* Judges */
+.judgesHack:hover {
+    box-shadow: 0px 0px 0px #fff !important;
+    transform: none !important;
+}
+.judgesHack img{
+    border-radius: 5%;
+    width: 250px;
+    height: 250px;
+    max-height: 250px !important;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
 /* Gallery */
 #carouselExampleIndicators {
     width: 80vw !important;
@@ -555,7 +568,7 @@ margin-bottom: 10px !important;
     }
     .partnerContainer img {
         max-height: 30vh;
-        max-width: 80vw;
+        max-width: 60vw;
     }
 } 
 
@@ -753,4 +766,27 @@ height:50vh;
 #GalleryHeading{
     padding-top: 2em;
     margin-top:12vh;
+}
+
+
+.textposition{
+    position: relative;
+    top:-50%;
+    color:#3E3E3E;
+}
+.imagesize{
+    width: 300px !important;
+    height: 300px !important;
+}
+.teamImageCard {
+    background: #fafafa !important;
+}
+.teamImageCard img {
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    margin: auto;
+    border-radius: 6%;
+}
+
+.mu-single-price img {
+    max-height: 150px;
 }
