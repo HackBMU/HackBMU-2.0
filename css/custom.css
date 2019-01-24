@@ -48,7 +48,7 @@ html {
 }
 
 .btn-info {
-    background-color: #3572B9 !important;
+    background-color: #4A90E2 !important;
 }
 
 .btn-info:hover {
@@ -272,7 +272,7 @@ p.lead.Home-para1{
 
 #about-bg-diag img{
     width: 300px;
-    height: 350px;
+    height: 300px;
     margin-top: 15%;
 }
 
@@ -429,8 +429,14 @@ p.lead.Home-para1{
     width: 100%;
     padding: 15px;
     overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
-@media (max-width: 991px){`
+
+.mu-single-price:hover {
+    transform:scale(1.02);
+}
+@media (max-width: 991px){
     .mu-single-price {
         margin-bottom: 30px;
     }
@@ -536,6 +542,10 @@ margin-bottom: 10px !important;
     height: 250px;
     max-height: 250px !important;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.judgesHack img:hover {
+    transform: scale(1.05)
 }
 
 /* Gallery */
@@ -786,7 +796,36 @@ height:50vh;
 .col-md-2 .teamImageCard .card-body {
     margin-left: 35px !important;
 }
-
+/* map */
+#BMLLocation {
+    width: 100%;
+    margin-top: 5vh;
+}
+.BGAddress {
+    background: #0575E6;
+}
+.mu-venue-address {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 10% 5%;
+    color: #fff;
+}
+.mu-venue-address h2 i {
+    margin-top: -4px;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mu-venue-address h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.mu-venue-address p {
+    color: #fff;
+}
 @media only screen and (max-width: 768px){
     .countdownHolder{
         width:auto !important;
