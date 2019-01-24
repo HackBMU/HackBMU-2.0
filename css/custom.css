@@ -119,7 +119,7 @@ html {
     background: #2f4499 !important;
 }
 .main-container {
-    margin-top: 12vh;
+    margin-top: 8vh;
 }
 
 
@@ -184,6 +184,9 @@ p.lead.Home-para1{
         background-position: center;
         background-size: 100% 100%;
     }
+    .main-container {
+        margin-top: 10vh;
+    }
     .imagebg{
         padding:0em;
     }
@@ -200,7 +203,7 @@ p.lead.Home-para1{
     .Home-logo {
         max-width: 150px;
         max-height: 150px;
-        margin-top: 30px;
+        margin-top: 90px;
         margin-bottom:30px !important;
     }
     .Home-para3{
@@ -744,18 +747,7 @@ height:50vh;
     display: none !important;
 }
 
-@media only screen and (max-width: 768px){
-    .countdownHolder{
-        width:auto !important;
-    }
-    .logo_whiteBox {
-        padding-top: 15vh !important;
-    }
-    
-    .ml15 .word {
-        margin-left: 8vw !important;
-    }
-}
+
 
 /*HackBMU Archives*/
 .heading-archives{
@@ -776,7 +768,7 @@ height:50vh;
 }
 .imagesize{
     width: 300px !important;
-    height: 300px !important;
+    height: 220px !important;
 }
 .teamImageCard {
     background: #fafafa !important;
@@ -789,4 +781,27 @@ height:50vh;
 
 .mu-single-price img {
     max-height: 150px;
+}
+
+.col-md-2 .teamImageCard .card-body {
+    margin-left: 35px !important;
+}
+
+@media only screen and (max-width: 768px){
+    .countdownHolder{
+        width:auto !important;
+    }
+    .logo_whiteBox {
+        padding-top: 15vh !important;
+    }
+    
+    .ml15 .word {
+        margin-left: 8vw !important;
+    }
+    .col-md-2 .teamImageCard {
+        margin-left: 20px !important;
+    }
+    .col-md-2 .teamImageCard .card-body {
+        margin-left: -10px !important;
+    }
 }
