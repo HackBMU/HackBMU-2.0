@@ -848,4 +848,7 @@ height:50vh;
     .col-md-2 .teamImageCard .card-body {
         margin-left: -10px !important;
     }
+    .imagesize {
+        height: 300px !important;
+    }
 }
